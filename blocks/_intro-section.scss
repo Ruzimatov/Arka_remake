@@ -1,0 +1,61 @@
+.intro{
+    overflow: hidden;
+    background-color: #F2AE4D;
+}
+.intro-section  {
+    padding: 165px 0 200px 0;
+    display: flex;
+    @include center;
+}
+.intro-text {
+    margin-right: 400px;
+}
+.intro-title{
+    width: 480px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #011F3A;
+    margin-bottom: 33px;
+}
+.intro-descr{
+    width: 277px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #011F3A;
+    margin-bottom: 30px;
+}
+.intro-btn{
+    @include btn;
+    background-color: $mainBlue;
+    color: $white;
+}
+
+@media only screen and(max-width: 576px){
+    .intro{
+        height: 100vh;
+        padding: 0 20px;
+    }
+    .intro-text{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .intro-title{
+        font-size: 3rem;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .intro-descr{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .intro-img{
+        display: none;
+    }
+   
+}
