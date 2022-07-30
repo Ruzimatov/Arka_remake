@@ -1,347 +1,588 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Arka</title>
-</head>
-<body>
- <!-- Header -->
-   <header class="header-nav">
-    <div class="navigation">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header-nav">
+      <div class="navigation">
         <div class="logo">
-            <img src="./assets/icons/logo.svg" 
-            alt="logo" 
-            width="85" 
-            height="24">
+          <img
+            src="./assets/icons/logo.svg"
+            alt="logo"
+            width="85"
+            height="24"
+          />
         </div>
         <button class="burger">
-            <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars"></i>
         </button>
         <ul class="navbar-nav">
-            <li class="navbar-items"><a href="#">start your design</a></li>
-            <li class="navbar-items"><a href="#">all products</a></li>
-            <li class="navbar-items"><a href="#">inspiration</a></li>
-            <li class="navbar-items"><a href="#">about</a></li>
+          <li class="navbar-items"><a href="#">start your design</a></li>
+          <li class="navbar-items"><a href="#">all products</a></li>
+          <li class="navbar-items"><a href="#">inspiration</a></li>
+          <li class="navbar-items"><a href="#">about</a></li>
         </ul>
         <ul class="navbar-nav navbar-account">
-            <li><a href="#">account</a></li>
-            <li><img src="./assets/./icons/cart.svg" 
-                alt="cart" 
-                width="24"
-                height="24">
-            </li>
+          <li><a href="#">account</a></li>
+          <li>
+            <img
+              src="./assets/./icons/cart.svg"
+              alt="cart"
+              width="24"
+              height="24"
+            />
+          </li>
         </ul>
-    </div>
-   </header>
- <!-- Header -->
- <!-- Intro -->
- <section class="intro">
-    <div class="container intro-section">
+      </div>
+    </header>
+    <!-- Header -->
+    <!-- Intro -->
+    <section class="intro">
+      <div class="container intro-section">
         <div class="intro-text">
-            <h1 class="intro-title">Fast and easy custom boxes your customers will love</h1>
-            <p class="intro-descr">Fastest turnaround. Best prices instantly. Dieline design help available.</p>
-            <a href="#" class="intro-btn">Start your design</a>
+          <h1 class="intro-title">
+            Fast and easy custom boxes your customers will love
+          </h1>
+          <p class="intro-descr">
+            Fastest turnaround. Best prices instantly. Dieline design help
+            available.
+          </p>
+          <a href="#" class="intro-btn">Start your design</a>
         </div>
         <div class="intro-img">
-            <img src="./assets/images/boxes.png" 
-            alt="boxes" 
-            width="500" 
-            height="500">
+          <img
+            src="./assets/images/boxes.png"
+            alt="boxes"
+            width="500"
+            height="500"
+          />
         </div>
+      </div>
+    </section>
+    <!-- Intro -->
+    <!-- Online-shop -->
+    <div class="online-shops">
+      <div class="container online-shop-wrapper">
+        <div class="shop-item">
+          <div class="shop-img">
+            <img
+              src="./assets/images/shopify.png"
+              alt="shopify"
+              width="142"
+              height="80"
+            />
+          </div>
+          <div class="shop-text">
+            <p class="shop-descr">Shopify Integrated</p>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="shop-img">
+            <img
+              src="./assets/images/amazon.png"
+              alt="shopify"
+              width="80"
+              height="80"
+            />
+          </div>
+          <div class="shop-text">
+            <p class="shop-descr">Amazon Certified</p>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="shop-img">
+            <img
+              src="./assets/images/ecofrie.png"
+              alt="shopify"
+              width="142"
+              height="80"
+            />
+          </div>
+          <div class="shop-text">
+            <p class="shop-descr">Eco-Friendly</p>
+          </div>
+        </div>
+      </div>
     </div>
- </section>
-  <!-- Intro -->
-  <!-- Online-shop -->
-  <div class="online-shops">
-    <div class="container online-shop-wrapper">
-        <div class="shop-item">
-            <div class="shop-img">
-                <img src="./assets/images/shopify.png" 
-                alt="shopify" 
-                width="142" 
-                height="80">
-            </div>
-            <div class="shop-text">
-                <p class="shop-descr">Shopify Integrated</p>
-            </div>
-        </div>
-        <div class="shop-item">
-            <div class="shop-img">
-                <img src="./assets/images/amazon.png" 
-                alt="shopify" 
-                width="80" 
-                height="80">
-            </div>
-            <div class="shop-text">
-                <p class="shop-descr">Amazon Certified</p>
-            </div>
-        </div>
-        <div class="shop-item">
-            <div class="shop-img">
-                <img src="./assets/images/ecofrie.png" 
-                alt="shopify" 
-                width="142" 
-                height="80">
-            </div>
-            <div class="shop-text">
-                <p class="shop-descr">Eco-Friendly</p>
-            </div>
-        </div>
-    </div>
-  </div>
-<!-- Online-shop -->
-<!-- Products -->
+    <!-- Online-shop -->
+    <!-- Products -->
     <div class="container">
-        <div class="products-header">
-            <h2 class="products-title">
-                Products you can customize
-            </h2>
-            <a href="#" class="products-btn">Browse all products</a>
+      <div class="products-header">
+        <h2 class="products-title">Products you can customize</h2>
+        <a href="#" class="products-btn">Browse all products</a>
+      </div>
+      <div class="products-wrapper">
+        <div class="products-card">
+          <div class="product-card__img">
+            <img
+              src="./assets/images/card_img1.png"
+              alt="card"
+              width="398"
+              height="302"
+            />
+          </div>
+          <div class="products-text">
+            <h4 class="products-card-title">Custom Carton Boxes</h4>
+            <div class="products-descr">
+              <p class="product-card-inner-text">
+                Create a clean brand presentation with this custom carton box.
+              </p>
+              <span class="products-inner-descr">
+                Starting at: $10.44/unit
+              </span>
+            </div>
+          </div>
         </div>
-        <div class="products-wrapper">
-            <div class="products-card">
-                <div class="product-card__img">
-                    <img src="./assets/images/card_img1.png" 
-                    alt="card" 
-                    width="398" 
-                    height="302">
-                </div>
-                <div class="products-text">
-                    <h4 class="products-card-title">
-                        Custom Carton Boxes
-                    </h4>
-                    <div class="products-descr">
-                        <p class="product-card-inner-text">  Create a clean brand  presentation with this custom carton box.
-                        </p>
-                        <span class="products-inner-descr">
-                            Starting at: $10.44/unit
-                        </span>
-                    </div>
-                </div>
+        <div class="products-card">
+          <div class="product-card__img">
+            <img
+              src="./assets/images/card_img2.png"
+              alt="card"
+              width="398"
+              height="302"
+            />
+          </div>
+          <div class="products-text">
+            <h4 class="products-card-title">Custom Boxes</h4>
+            <div class="products-descr">
+              <p class="product-card-inner-text">
+                A stylish and strong corrugated cardboard box.
+              </p>
             </div>
-            <div class="products-card">
-                <div class="product-card__img">
-                    <img src="./assets/images/card_img2.png" 
-                    alt="card" 
-                    width="398" 
-                    height="302">
-                </div>
-                <div class="products-text">
-                    <h4 class="products-card-title">
-                        Custom Boxes
-                    </h4>
-                    <div class="products-descr">
-                        <p class="product-card-inner-text">  A stylish and strong corrugated cardboard box.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="products-card">
-                <div class="product-card__img">
-                    <img src="./assets/images/card_img3.png" 
-                    alt="card" 
-                    width="398" 
-                    height="302">
-                </div>
-                <div class="products-text">
-                    <h4 class="products-card-title">
-                        Custom Poly Mailers
-                    </h4>
-                    <div class="products-descr">
-                        <p class="product-card-inner-text">  A fully custom high quality self sealing poly mailer.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="products-card">
-                <div class="product-card__img">
-                    <img src="./assets/images/card_img4.png" 
-                    alt="card" 
-                    width="398" 
-                    height="302">
-                </div>
-                <div class="products-text">
-                    <h4 class="products-card-title">
-                        Custom Tape
-                    </h4>
-                    <div class="products-descr">
-                        <p class="product-card-inner-text">  High quality custom tape to seal your shipping boxes during delivery.
-                        </p>
-                        <span class="products-inner-descr">
-                            Starting at: $12.16/unit
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="products-card">
-                <div class="product-card__img">
-                    <img src="./assets/images/card_img5.png" 
-                    alt="card" 
-                    width="398" 
-                    height="302">
-                </div>
-                <div class="products-text">
-                    <h4 class="products-card-title">
-                        Custom Stickers
-                    </h4>
-                    <div class="products-descr">
-                        <p class="product-card-inner-text">  Add personality to your packages with custom stickers.
-                        </p>
-                        <span class="products-inner-descr">
-                            Starting at: $0.41/unit
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="products-card">
-                <div class="product-card__img">
-                    <img src="./assets/images/card_img6.png" 
-                    alt="card" 
-                    width="398" 
-                    height="302">
-                </div>
-                <div class="products-text">
-                    <h4 class="products-card-title">
-                        Custom Tissue Paper
-                    </h4>
-                    <div class="products-descr">
-                        <p class="product-card-inner-text">  The perfect addition to branding your package.
-                        </p>
-                        <span class="products-inner-descr">
-                            Starting at: $6.54/unit
-                        </span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="products-footer">
-            <p class="products-footer-text">
-                Need unbranded stock items?
-            </p>
-            <a href="#" class="products-btn footer-product-btn">Shop stock</a>
+        <div class="products-card">
+          <div class="product-card__img">
+            <img
+              src="./assets/images/card_img3.png"
+              alt="card"
+              width="398"
+              height="302"
+            />
+          </div>
+          <div class="products-text">
+            <h4 class="products-card-title">Custom Poly Mailers</h4>
+            <div class="products-descr">
+              <p class="product-card-inner-text">
+                A fully custom high quality self sealing poly mailer.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="products-card">
+          <div class="product-card__img">
+            <img
+              src="./assets/images/card_img4.png"
+              alt="card"
+              width="398"
+              height="302"
+            />
+          </div>
+          <div class="products-text">
+            <h4 class="products-card-title">Custom Tape</h4>
+            <div class="products-descr">
+              <p class="product-card-inner-text">
+                High quality custom tape to seal your shipping boxes during
+                delivery.
+              </p>
+              <span class="products-inner-descr">
+                Starting at: $12.16/unit
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="products-card">
+          <div class="product-card__img">
+            <img
+              src="./assets/images/card_img5.png"
+              alt="card"
+              width="398"
+              height="302"
+            />
+          </div>
+          <div class="products-text">
+            <h4 class="products-card-title">Custom Stickers</h4>
+            <div class="products-descr">
+              <p class="product-card-inner-text">
+                Add personality to your packages with custom stickers.
+              </p>
+              <span class="products-inner-descr">
+                Starting at: $0.41/unit
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="products-card">
+          <div class="product-card__img">
+            <img
+              src="./assets/images/card_img6.png"
+              alt="card"
+              width="398"
+              height="302"
+            />
+          </div>
+          <div class="products-text">
+            <h4 class="products-card-title">Custom Tissue Paper</h4>
+            <div class="products-descr">
+              <p class="product-card-inner-text">
+                The perfect addition to branding your package.
+              </p>
+              <span class="products-inner-descr">
+                Starting at: $6.54/unit
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-footer">
+        <p class="products-footer-text">Need unbranded stock items?</p>
+        <a href="#" class="products-btn footer-product-btn">Shop stock</a>
+      </div>
     </div>
-<!-- Products -->
-<!-- Custom -->
+    <!-- Products -->
+    <!-- Custom -->
     <div class="container custom-wrapper">
-        <div class="custom-header">
-            <h3 class="custom-title">
-                Fast and easy custom boxes your customers will love
-            </h3>
+      <div class="custom-header">
+        <h3 class="custom-title">
+          Fast and easy custom boxes your customers will love
+        </h3>
+      </div>
+      <div class="custom-cards-wrapper">
+        <div class="custom-card">
+          <div class="custom-card__img">
+            <img
+              src="./assets/images/order.png"
+              alt="order"
+              width="300"
+              height="300"
+            />
+          </div>
+          <div class="custom-card__text">
+            <h3 class="custom-card-text-title">You Order</h3>
+            <p class="custom-card-descr">
+              Design and order boxes in a few clicks.
+            </p>
+          </div>
         </div>
-        <div class="custom-cards-wrapper">
-            <div class="custom-card">
-                <div class="custom-card__img">
-                    <img src="./assets/images/order.png" alt="order" width="300" height="300">
-                </div>
-                <div class="custom-card__text">
-                    <h3 class="custom-card-text-title">
-                        You Order
-                    </h3>
-                    <p class="custom-card-descr">
-                        Design and order boxes in a few clicks.
-                    </p>
-                </div>
-            </div>
-            <div class="custom-card">
-                <div class="custom-card__img">
-                    <img src="./assets/images/proof.png" alt="proof" width="300" height="300">
-                </div>
-                <div class="custom-card__text">
-                    <h3 class="custom-card-text-title">
-                        We Proof
-                    </h3>
-                    <p class="custom-card-descr">
-                        Approve your designs before production.
-                    </p>
-                </div>
-            </div>
-            <div class="custom-card">
-                <div class="custom-card__img">
-                    <img src="./assets/images/print.png" alt="print" width="300" height="300">
-                </div>
-                <div class="custom-card__text">
-                    <h3 class="custom-card-text-title">
-                        We Print & Ship
-                    </h3>
-                    <p class="custom-card-descr">
-                        Your order gets printed and shipped with tracking.                    </p>
-                </div>
-            </div>
+        <div class="custom-card">
+          <div class="custom-card__img">
+            <img
+              src="./assets/images/proof.png"
+              alt="proof"
+              width="300"
+              height="300"
+            />
+          </div>
+          <div class="custom-card__text">
+            <h3 class="custom-card-text-title">We Proof</h3>
+            <p class="custom-card-descr">
+              Approve your designs before production.
+            </p>
+          </div>
         </div>
-       <div class="container-btn">
+        <div class="custom-card">
+          <div class="custom-card__img">
+            <img
+              src="./assets/images/print.png"
+              alt="print"
+              width="300"
+              height="300"
+            />
+          </div>
+          <div class="custom-card__text">
+            <h3 class="custom-card-text-title">We Print & Ship</h3>
+            <p class="custom-card-descr">
+              Your order gets printed and shipped with tracking.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-btn">
         <a href="#" class="custom-btn">Start your design</a>
-       </div>
+      </div>
     </div>
-<!-- Custom -->
-<!-- Advantage -->
-<div class="container advantage-container">
-    <h2 class="advantage-title">
-        The Arka advantage
-    </h2>
-    <div class="advantage-wrapper">
+    <!-- Custom -->
+    <!-- Advantage -->
+    <div class="container advantage-container">
+      <h2 class="advantage-title">The Arka advantage</h2>
+      <div class="advantage-wrapper">
         <div class="advantage-card">
-            <div class="advantage-card__img">
-                <img src="./assets/images/eco-frinedly.png"
-                 alt="eco-friendly"
-                 width="254"
-                 height="254">
-            </div>
-            <div class="advantage-card__text">
-                <h4 class="advantege-card-title">
-                    Eco-Friendly Material
-                </h4>
-                <p class="advantage-card-text">
-                    Order as little as 10, giving you the lowest minimums in the industry at the best prices.
-                </p>
-            </div>
+          <div class="advantage-card__img">
+            <img
+              src="./assets/images/eco-frinedly.png"
+              alt="eco-friendly"
+              width="254"
+              height="254"
+            />
+          </div>
+          <div class="advantage-card__text">
+            <h4 class="advantege-card-title">Eco-Friendly Material</h4>
+            <p class="advantage-card-text">
+              Order as little as 10, giving you the lowest minimums in the
+              industry at the best prices.
+            </p>
+          </div>
         </div>
         <div class="advantage-card">
-            <div class="advantage-card__img">
-                <img src="./assets/images/outside-print.png"
-                 alt="eco-friendly"
-                 width="254"
-                 height="254">
-            </div>
-            <div class="advantage-card__text">
-                <h4 class="advantege-card-title">
-                    Full Outside Print
-                </h4>
-                <p class="advantage-card-text">
-                    Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!
-                </p>
-            </div>
+          <div class="advantage-card__img">
+            <img
+              src="./assets/images/outside-print.png"
+              alt="eco-friendly"
+              width="254"
+              height="254"
+            />
+          </div>
+          <div class="advantage-card__text">
+            <h4 class="advantege-card-title">Full Outside Print</h4>
+            <p class="advantage-card-text">
+              Design what you want - no extra cost! Prices include 100% exterior
+              print, change design whenever!
+            </p>
+          </div>
         </div>
         <div class="advantage-card">
-            <div class="advantage-card__img">
-                <img src="./assets/images/proof.png"
-                 alt="eco-friendly"
-                 width="254"
-                 height="254">
-            </div>
-            <div class="advantage-card__text">
-                <h4 class="advantege-card-title">
-                    Proofing
-                </h4>
-                <p class="advantage-card-text">
-                    After you order, our internal designers help make sure your designs are 100% ready for printing!
-                </p>
-            </div>
+          <div class="advantage-card__img">
+            <img
+              src="./assets/images/proof.png"
+              alt="eco-friendly"
+              width="254"
+              height="254"
+            />
+          </div>
+          <div class="advantage-card__text">
+            <h4 class="advantege-card-title">Proofing</h4>
+            <p class="advantage-card-text">
+              After you order, our internal designers help make sure your
+              designs are 100% ready for printing!
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Advantage -->
-<!-- Size -->
+    <!-- Advantage -->
+    <!-- Size -->
     <div class="size">
-        <div class="container size-container">
-            
+      <div class="container size-container">
+        <div class="size-wrapper">
+          <div class="size-content">
+            <div class="size-card">
+              <div class="size-card__img">
+                <img
+                  src="./assets/images/size.png"
+                  alt="dixe"
+                  width="210"
+                  height="210"
+                />
+              </div>
+              <div class="size-card__text">
+                <h3 class="size-card-title">Couldn't find a size you need?</h3>
+                <p class="size-card-text">
+                  We’ll work directly with you to create a fully branded
+                  packaging system.
+                </p>
+                <a href="#" class="request-btn">Request a quote</a>
+              </div>
+            </div>
+          </div>
+          <div class="size-content">
+            <div class="size-card">
+              <div class="size-card__img">
+                <img
+                  src="./assets/images/template.png"
+                  alt="dixe"
+                  width="210"
+                  height="210"
+                />
+              </div>
+              <div class="size-card__text">
+                <h3 class="size-card-title">Need a free dieline template?</h3>
+                <p class="size-card-text">
+                  Let us know what size you need and we'll email an Adobe
+                  Illustrator dieline to you within 3-4 business days.
+                </p>
+                <a href="#" class="request-btn">Request a quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Size -->
+    <!-- Merchants -->
+    <div class="container">
+      <h2 class="marchents-title">Merchants love Arka</h2>
+      <div class="marchents">
+        <div class="marchents-wrapper">
+          <div class="marchents-top">
+            <div class="content-holder">
+              <img src="./assets/images/google.png" alt="google" width="208" />
+            </div>
+            <div class="content-holder">
+              <img
+                src="./assets/images/shopify-link.png"
+                alt="google"
+                width="247"
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="content-holder">
+              <div class="marchent-img">
+                <img src="./assets/images/wallet.png" alt="wallet" />
+              </div>
+              <div class="marchent-img">
+                <img src="./assets/images/baloons.png" alt="wallet" />
+              </div>
+            </div>
+            <div class="content-holder">
+              <div class="marchents-text">
+                <p class="marchents-descr">
+                  “Arka’s team is super fast, knowledgeable, and easy to work
+                  with - highly recommended!”
+                </p>
+                <div class="user-container">
+                  <div class="user-ava">
+                    <img src="./assets/images/ava1.png" alt="" />
+                  </div>
+                  <p class="user">
+                    Jesse <br />
+                    <span class="userName">Subscription Catalyst</span>
+                  </p>
+                  <a href="#" class="user-btn">Their story</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content-holder">
+              <div class="marchents-text">
+                <p class="marchents-descr">
+                  “I really like Arka because it’s a really nice box, I’ve
+                  gotten a lot of compliments on&nbsp;it.”
+                </p>
+                <div class="user-container">
+                  <div class="user-ava">
+                    <img src="./assets/images/ava2..png" alt="" />
+                  </div>
+                  <p class="user">
+                    Leslie<br />
+                    <span class="userName">Burgundy Fox</span>
+                  </p>
+                  <a href="#" class="user-btn">Their story</a>
+                </div>
+              </div>
+            </div>
+            <div class="content-holder">
+              <div class="marchent-img">
+                <img src="./assets/images/african-boxes.png" alt="boxes" />
+              </div>
+              <div class="marchent-img">
+                <img src="./assets/images/white-box.png" alt="whitebox" />
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content-holder">
+              <div class="marchent-img">
+                <img src="./assets/images/shoes.png" alt="shoes" />
+              </div>
+              <div class="marchent-img">
+                <img src="./assets/images/heart.png" alt="heart" />
+              </div>
+            </div>
+            <div class="content-holder">
+              <div class="marchents-text">
+                <p class="marchents-descr">
+                    “I love how easily it was to customize the box, and you guys were more affordable.”
+                </p>
+                <div class="user-container">
+                  <div class="user-ava">
+                    <img src="./assets/images/ava3.png" alt="" />
+                  </div>
+                  <p class="user">
+                    Anthony <br />
+                    <span class="userName">Lipstick Junkie</span>
+                  </p>
+                  <a href="#" class="user-btn">Their story</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Merchants -->
+    <!-- Get  -->
+   <div class="container">
+    <div class="lets-get">
+        <h2 class="lets-title">
+            Let`s get to it
+        </h2>
+        <div class="lets-buttons">
+            <a href="#" class="lets-btn blue">Start your design</a>
+            <a href="#" class="lets-btn white">Browse all products</a>
         </div>
     </div>
-<!-- Size -->
+   </div>
+    <!-- Get  -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="./assets/icons/logo.svg" alt="logo">
+            </div>
+            <ul class="footer-nav">
+                <li><a href="#">Custom Design</a></li>
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Request Custom Quote</a></li>
+                <li><a href="#">Request Dieline</a></li>
+            </ul>
+            <ul class="footer-nav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+            <ul class="footer-nav">
+                <li><a href="#">Shopify App</a></li>
+                <li><a href="#">14 Day Free Shopify Trial</a></li>
+                <li><a href="#">BigCommerce</a></li>
+                <li><a href="#">
+                    <ul class="footer-inner-nav">
+                        <li><a href="#"> <img src="./assets/icons/facebook.svg" alt=""> </a></li>
+                        <li><a href="#"> <img src="./assets/icons/twitter.svg" alt=""> </a></li>
+                        <li><a href="#"> <img src="./assets/icons/instagram.svg" alt=""> </a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="footer-form">
+                <span>Get exclusive offers and tips.</span>
+                <form >
+                    <input type="email" name="email" id="email" class="footer-input"  placeholder="Your email">
+                    <button class="form-btn"><a href="#">Join instantly</a></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
